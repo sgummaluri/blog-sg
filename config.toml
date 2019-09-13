@@ -1,3 +1,23 @@
-baseURL = "http://example.org/"
+baseURL = "http://sgummaluri.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "404 [!]Found"
+theme = black-and-light"
+canonifyurls = true
+author = "sgummaluri"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "Black & Light"
+  disableWebFonts = false
+
+[[menu.main]]
+    name = "About"
+    url  = "#"
+[[menu.main]]
+    name = "Projects"
+    url  = "#"
+[[menu.main]]
+    name = "Resume"
+    url  = "#"
