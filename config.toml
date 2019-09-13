@@ -1,6 +1,6 @@
 baseURL = "http://sgummaluri.github.io"
 languageCode = "en-us"
-title = "404 [!]Found"
+title = "404 [!] Found"
 theme = "black-and-light"
 canonifyurls = true
 author = "sgummaluri"
@@ -9,7 +9,7 @@ pygmentsstyle       = "bw"
 pygmentscodefences  = true
 
 [params]
-  sitename = "Black & Light"
+  sitename = "404 [!] Found "
   disableWebFonts = false
 
 [[menu.main]]
