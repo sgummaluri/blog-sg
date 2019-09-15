@@ -1,23 +1,29 @@
-baseURL = "http://sgummaluri.github.io"
+baseURL = "https://saikumar.dev/"
 languageCode = "en-us"
 title = "404 [!] Found"
 theme = "black-and-light"
 canonifyurls = true
 author = "sgummaluri"
+contentdir = "content"
+FootnoteReturnLinkContents = "↩"
 
 pygmentsstyle       = "bw"
 pygmentscodefences  = true
 
+pluralizelisttitles = false
+
 [params]
   sitename = "404 [!] Found "
   disableWebFonts = false
+  dateform = "January 2006"
+  datefullform = " Mon Jan 2 2006"
 
 [[menu.main]]
-    name = "About"
-    url  = "#"
+    name = "GitHub"
+    url  = "//github.com/sgummaluri"
 [[menu.main]]
-    name = "Projects"
-    url  = "#"
+    name = "LinkedIn"
+    url  = "https://www.linkedin.com/in/saikumargummaluri/"
 [[menu.main]]
     name = "Resume"
-    url  = "#"
+    url  = "/docs/sgummaluri.pdf"
