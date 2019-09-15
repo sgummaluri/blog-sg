@@ -1,4 +1,4 @@
-baseURL = "https://saikumar.dev"
+baseURL = "https://saikumar.dev/"
 languageCode = "en-us"
 title = "404 [!] Found"
 theme = "black-and-light"
