@@ -6,11 +6,11 @@ tags: [
     "Architecture", "Documentation"
 ]
 ---
-Every software developer that ever worked on a project that has been under development for a considerable amount of time  or ever dealt with a mature codebase, would have criticised the way things are structured in the project or may have even cussed about the orchestration of the components and the design overall. 
+Every software developer that ever worked on a project that has been under development for a considerable amount of time  or ever dealt with a mature codebase, would have criticised the way things are structured in the project or might have even cussed about the orchestration of the components and the design overall. 
 
 This inevitably seems to happen in scenarios where a new developer is on-boarded to work on a project/product that is already in production and has real users using that product. But in the real world software development, it is always mostly the case that there is a specific motivation behind the way components talk to each other or the way each of the components are designed. Unless we are tying up a bunch of components in a haste to bring a product up and running, logical decisions always direct the way a project/product is designed. 
 
-This design in a general sense is what constitutes the architecture of a project. To address and to ease the friction that is caused during the initial phases of getting used to a new project or a codebase, it is beneficial to understand the architecture. Also, in all practical cases, it is not possible for one an individual to remember all the decisions made along the lifecycle of software development. Particularly, having an understanding of why the product is architected in a certain manner, helps every developer working on a project to comprehend the product's architecture better. It leads to a healthy dev culture in a team where every developer is aware of the history of the product's architecture and this can help in keeping up the quality of the product in the longer-run of the product lifecycle. This is where **Architecture Decision Records** (ADR) come to the rescue. This blog post walks you through what ADRs are all about and how you can get started with using them.
+This design in a general sense is what constitutes the architecture of a project. To address and to ease the friction that is caused during the initial phases of getting used to a new project or a codebase, it is beneficial to understand the architecture. Also, in all practical cases, it is not possible for one an individual to remember all the decisions made along the lifecycle of software development. Particularly, having an understanding of why the product is architected in a certain manner, helps every developer working on a project to comprehend the product's architecture better. It leads to effective communication and a healthy dev culture in a team where every developer is aware of the history of the product's architecture and this can help in keeping up the quality of the product in the longer-run of the product lifecycle. This is where **Architecture Decision Records** (ADR) come to the rescue. This blog post walks you through what ADRs are all about and how you can get started with using them.
 
 ## What are Architecture Decision Records anyway?
 Architecture Desicion Records are not something new and have been around for quite some time. 
@@ -57,7 +57,9 @@ Always keep in mind that ADRs are living, breathing documents just like our sour
 Additionally, architecture decisions that pertain to any cross-cutting concerns may be maintained separately in a different directory. It is not a hard and fast rule to do so, but this eliminates plausible clutter and provides a clean view of our architecture decisions.
 
 ## Are there any tools to adopt ADRs?
-To include the markdown style of ADRs that we discussed above, we can make use of [*adr-tools*](https://github.com/npryce/adr-tools). This is an actively maintained project (at the time of writing) and provides a seamless way to begin with adopting ADRs. This also provides a way to maintain ADRs consistently across a team as the conventions for handling ADRs is solved at the tool level itself. Also, the best point of this tool is that there is no specific configuration required on the server side to get started.
+To include the markdown style of ADRs that we discussed above, we can make use of [*adr-tools*](https://github.com/npryce/adr-tools). This is an actively maintained project (at the time of writing) and provides a seamless way to begin with adopting ADRs. This also provides a way to maintain ADRs consistently across a team as the conventions for handling ADRs is solved at the tool level itself. Also, the best point of this tool is that there is no specific configuration required on the server side to get started. 
+
+One best part about this project is, this itself makes use of ADRs as a part of its [documentation](https://github.com/npryce/adr-tools/tree/master/doc/adr). I suggest you to go through it to gain an understanding into how ADRs are put to use in real world projects.
 
 ## Further Steps
 The Architecture Decision Records are just the beginning in the journey of documentation but can add huge value to a project. Especially, projects that lack documentation can begin with ADRs to bring all the developers and stakeholders involved in the project to come on to the same page in terms of what the stage of the project is. 
@@ -69,6 +71,8 @@ As a next step to this, to proceed with detailed documentation of a project, the
 * https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records
 * http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions
 * https://github.com/npryce/adr-tools
+* https://github.com/npryce/adr-tools/tree/master/doc/adr
 * https://c4model.com
 * https://www.infoq.com/articles/C4-architecture-model
 * https://github.com/structurizr
+* https://resources.sei.cmu.edu/asset_files/Presentation/2017_017_001_497746.pdf
