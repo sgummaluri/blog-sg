@@ -62,7 +62,7 @@ To include the markdown style of ADRs that we discussed above, we can make use o
 One best part about this project is, this itself makes use of ADRs as a part of its [documentation](https://github.com/npryce/adr-tools/tree/master/doc/adr). I suggest you to go through it to gain an understanding into how ADRs are put to use in real world projects.
 
 ## Further Steps
-The Architecture Decision Records are just the beginning in the journey of documentation but can add huge value to a project. Especially, projects that lack documentation can begin with ADRs to bring all the developers and stakeholders involved in the project to come on to the same page in terms of what the stage of the project is. 
+The Architecture Decision Records are just the beginning in the journey of documentation but can add huge value to a project. Especially, projects that lack documentation can begin with ADRs to bring all the developers and stakeholders involved in the project, on to the same page in terms of what the stage of the project is in. 
 
 As a next step to this, to proceed with detailed documentation of a project, there are several methodologies that could be explored. I suggest taking a look at [***C4 Model***](https://www.infoq.com/articles/C4-architecture-model/). This is a natural transition if you're starting off with ADRs. 
 
