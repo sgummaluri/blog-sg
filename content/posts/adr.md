@@ -52,7 +52,7 @@ This sections lists all the possible consequences that may ensue after a decisio
 ## How to include and maintain ADRs in my project?
 Since we are adopting the markdown way of handling ADRs, we can include them within our project repository. One possible directory structure could be **/docs/architecture/decisions** (relative to root directory of our repository). It is always advised to follow a convention that allows for a sequence among the ADRs. An example could be **XXXX-Title-of-ADR**. Replace the placeholder with the title of your ADR and *XXXX* could be the sequence beginning from *0001* for your first ADR.
 
-Always keep in mind that ADRs are living, breathing documents just like our source code. We never delete any ADR that is accepted, but only mark them *Deprecated* when a particular record is no longer valid. Make sure to di your ADRs over a period of time. This has to be done with the same discipline we perform our code reviews.
+Always keep in mind that ADRs are living, breathing documents just like our source code. We never delete any ADR that is accepted, but only mark them *Deprecated* when a particular record is no longer valid. Make sure to review your ADRs over a period of time. This has to be done with the same discipline we perform our code reviews.
 
 Additionally, architecture decisions that pertain to any cross-cutting concerns may be maintained separately in a different directory. It is not a hard and fast rule to do so, but this eliminates plausible clutter and provides a clean view of our architecture decisions.
 
