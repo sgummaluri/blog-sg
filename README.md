@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.com/sgummaluri/blog-sg.svg?branch=master)](https://travis-ci.com/github/sgummaluri/blog-sg)
+### This is the parent repo that drives saikumar.dev, which is hosted on github pages. 
