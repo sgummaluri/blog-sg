@@ -61,6 +61,33 @@ To include the markdown style of ADRs that we discussed above, we can make use o
 
 One best part about this project is, this itself makes use of ADRs as a part of its [documentation](https://github.com/npryce/adr-tools/tree/master/doc/adr). I suggest you to go through it to gain an understanding into how ADRs are put to use in real world projects.
 
+## Let's write an ADR
+For the sake of our discussion, we need a usecase for which we can come up with an ADR. This blog is built using [Hugo](https://gohugo.io/), a static site generator and deployed on [Github pages](https://pages.github.com/). I've set up a CI process that deploys any new commits on my hugo repository directly to Github pages. The CI process is established through [Travis CI](https://travis-ci.com/). 
+
+Now if we model this decision of using Travis CI to auto-deploy latest commits on my base hugo repository to github pages as an ADR by following the rules discussed above, below is how the markdown of ADR looks like. Please bear in mind that we are not going to look at what the setup process is. We shall save it for another day.
+
+```md
+## 1. Use Travis CI for setting up auto-deployment of hugo build artificats to github pages
+Date: 2020-04-25
+
+## Status
+Accepted
+
+## Context
+Hugo is a static site generator framework written in Go. The artificats from the Hugo build step are what we are going to deploy to github pages.
+This step of building and manually deploying to github pages has to be done whenever I push new content or amend any existing posts.
+We should be considering to use Travis CI to eliminate the manual intervention needed for deployment post a successful build.
+
+## Decision
+We will use Travis CI to automate the deployment process instead of manually deploying to Github pages, every change/addition to the blog.
+
+## Consequences
+With Travis CI, there are no new code changes that are required; easy to configure; directly integrates with the Github repository.
+We will need to add `Travis.yml` file to the repository and establish the integration between Travis CI and the Github repository.
+Once the integration is successfully established and build steps are listed out, any new changes pushed to base hugo repository are instantly deployed to Github pages.
+We will need to actively maintain the build scripts and the integrations going forward.
+```
+
 ## Further Steps
 The Architecture Decision Records are just the beginning in the journey of documentation but can add huge value to a project. Especially, projects that lack documentation can begin with ADRs to bring all the developers and stakeholders involved in the project, on to the same page in terms of what the stage of the project is in. 
 
