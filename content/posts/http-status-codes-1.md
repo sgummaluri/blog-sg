@@ -1,7 +1,7 @@
 ---
 title: "Http Status Codes - 1"
 date: 2020-05-10T19:56:44+05:30
-draft: true,
+draft: false,
 tags: ["HTTP", "HTTP Status Codes"]
 ---
 It is an undeniable fact that **HTTP** is the de facto standard of the Internet. Wikipedia terms HTTP as an application protocol for distributed, collaborative, hypermedia based information systems. With the advent of the world wide web, came applications that talked to each other over a network to exchange information. Be it the age old RPC style of directly invoking a network service or calling a RESTful endpoint on a server, HTTP is the medium over which this communication happens. Amongst the various use cases of HTTP, web application development has the majority share. 
