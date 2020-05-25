@@ -27,3 +27,6 @@ pluralizelisttitles = false
 [[menu.main]]
     name = "Resume"
     url  = "/docs/sgummaluri.pdf"
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
