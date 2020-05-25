@@ -1,5 +1,5 @@
 ---
-title: "Http Status Codes - 2"
+title: "HTTP Status Codes - 2"
 date: 2020-05-25T19:23:14+05:30
 draft: false
 tags: ["HTTP", "HTTP Status Codes"]
